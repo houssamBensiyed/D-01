@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "MultiplicationTable.C": "cpp",
+        "Multiplication.C": "cpp",
+        "Factorielle.C": "cpp"
+    }
+}
