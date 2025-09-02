@@ -5,6 +5,7 @@
         "Factorielle.C": "cpp",
         "tableauDentiers.C": "cpp",
         "AffichageDesElements.C": "cpp",
-        "Minimum.C": "cpp"
+        "Minimum.C": "cpp",
+        "TableauOrdreCroissant.C": "cpp"
     }
 }
