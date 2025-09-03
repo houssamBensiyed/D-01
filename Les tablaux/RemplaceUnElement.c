@@ -30,13 +30,19 @@ int main() {
         printf("L'operation a été avec succèes!\n");
         printf("Voice la nouvelle version du tableau: ");
         
+        printf("{ ");
         for( i = 0; i < elements; i++) {
-            printf("{ ");
+   
             if (i == elements - 1) {
                 printf("%d}", tableau[i]);
             } else {
             printf("%d,", tableau[i]);
             }
+
         }
+        printf("\n");
+    }
+    else {
+        printf("L'élément %d n'est pas éte trouvé dans le tableau. \n", oldElement);
     }
 }
