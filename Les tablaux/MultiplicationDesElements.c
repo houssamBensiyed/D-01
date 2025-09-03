@@ -17,7 +17,7 @@ int main() {
     scanf("%d", &factor);
 
     for(int i = 0; i < n; i++) {
-        tableau[i] = tableau[i] * factor;
+        tableau[i] *= factor;
     }
 
     printf("Resulting array after multiplication: \n");
