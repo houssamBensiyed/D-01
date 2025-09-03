@@ -10,7 +10,6 @@ int main() {
 
         for(int i = 0; i < n; i++) {
             printf("Enter element %d: ", i + 1);
-            // the user usually enter a normal value but the array is zero based that' why I putted i + 1
             scanf("%d", &tableau[i]);
         }
     }
