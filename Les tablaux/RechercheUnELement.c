@@ -17,6 +17,7 @@ int main() {
     printf("Entrez la valeur que vous cherchez: ");
     scanf("%d", &searchedItem);
 
+    // pour la perfermence j'ai fais le global variable i de les loops est affectuer zero
     for (i=0; i < 6; i++) {
         if ( tableau[i] == searchedItem) {
             estPresent = true;
